@@ -7,7 +7,7 @@ const GI = {
 }
 
 
-const to_do = [
+var to_do = [
     'Alimentar al perro',
     'Estudiar para prueba escrita',
     'Pagar taxes',
@@ -23,7 +23,7 @@ function desordenarArray (array) {
     return array;
 }
 
-//to_do = desordenarArray(to_do)
+to_do = desordenarArray(to_do)
 
 const lista = document.getElementById("lista-tareas");
 
